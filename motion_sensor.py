@@ -1,5 +1,10 @@
 #!/usr/bin/env python
 
+## Simple test of PIR sensor
+# it will look for motion, when motion is detected it will print a 
+# message to the screen and light a red LED. After PIR stops detecting 
+# it will turn off the red light and light the green one.
+
 # get GPIO library
 import RPi.GPIO as GPIO
 # get time library
